@@ -53,5 +53,5 @@ for k in range (20):
     roger.pen_up()
     size = size-20
     roger.pen_down()
-
+window.close_on_mouse_click()
 
