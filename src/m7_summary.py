@@ -2,7 +2,7 @@
 An exercise that summarizes what you have learned in this Session.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+         Aaron Wilkin, their colleagues, and Lara Peters.
 """
 ########################################################################
 # TODO: 1.
@@ -42,4 +42,11 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   As always, test by running the module.
 #   As always, COMMIT-and-PUSH when you are done with this module.
 #
-########################################################################
+#######################################################################
+import rosegraphics as rg
+window = rg.TurtleWindow()
+bob = rg.SimpleTurtle('turtle')
+bob.pen = rg.Pen('blue',5)
+bob.left(90)
+bob.forward(200)
+bob.pen_up()
